@@ -12,6 +12,10 @@ def fizzbuzz(input)
     output = output + "Buzz"
   end
   
+  if (input % 3 != 0)&&(input % 5 != 0)
+    return input
+  end
+  
   output
   
 end
